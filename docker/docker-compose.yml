@@ -1,0 +1,9 @@
+
+version: "3"
+services:
+  vendas_frontend:
+    build: ../apps/frontend/
+    ports:
+      - 8080:80
+    volumes:
+      - ../apps/frontend:/var/www
